@@ -12,20 +12,22 @@
 
 ## Código
 
--> pegamos o cvc do cc com o `querySelector`
--> fizemos uma máscara de no máximo 4 dígitos com o imask
+- pegamos o cvc do cc com o `querySelector`
 
--> pegamos a data de expiração do cc com o `querySelector`
--> fizemos uma máscara mais complexa usando `blocks` do imask
--> os primeiros 2 dígitos irem até 12 (mês), e os últimos 2 dígitos serem o ano atual + 10 para simular uma validade, dividos por uma `/`
+  - fizemos uma máscara de no máximo 4 dígitos com o imask
 
--> pegamos o número do cartão com o `querySelector`
--> criamos uma dynamicMask utilizando expressões regulares para cada tipo de cartão (visa, mastercard...)
--> para usar este tipo de máscara temos que usar a propriedade `dispatch`
--> é uma função que executa sempre que digitarmos um número
--> faz uma filtragem de dados (apenas dígitos)
--> e busca no array se o item digitado confere com o regex de algum cc
--> por fim retorna o `cardtype`
+- pegamos a data de expiração do cc com o `querySelector`
+
+  - fizemos uma máscara mais complexa usando `blocks` do imask
+  - os primeiros 2 dígitos irem até 12 (mês), e os últimos 2 dígitos serem o ano atual + 10 para simular uma validade, dividos por uma `/`
+
+- pegamos o número do cartão com o `querySelector`
+  - criamos uma dynamicMask utilizando expressões regulares para cada tipo de cartão (visa, mastercard...)
+  - para usar este tipo de máscara temos que usar a propriedade `dispatch`
+  - é uma função que executa sempre que digitarmos um número
+  - faz uma filtragem de dados (apenas dígitos)
+  - e busca no array se o item digitado confere com o regex de algum cc
+  - por fim retorna o `cardtype`
 
 # Expressões Regulares (Regex com JavaScript)
 

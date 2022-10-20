@@ -13,8 +13,8 @@
 
 ## Código
 
---> pegamos as (cores do background + logo) dos cartões usando `querySelector`
+- pegamos as (cores do background + logo) dos cartões usando `querySelector`
 
---> criação da função pra setar o tipo de cartão de crédito utilizando `setAttribute`
+- criação da função pra setar o tipo de cartão de crédito utilizando `setAttribute`
 
---> transformamos uma função global usando `globalThis`
+- transformamos uma função global usando `globalThis`
