@@ -1,13 +1,5 @@
 # Resumo Aula 03 do Explorer Lab 01
 
-## Teoria
-
-[X] - Manipulação de Eventos da DOM
-
-[] - Eventos do IMask
-
-[] - Publicando o projeto
-
 ## Manipulação de Eventos da DOM
 
 - Evento = ação que acontece a partir da interação do usuário
